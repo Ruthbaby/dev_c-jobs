@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+   margin: 0;
+   box-sizing: border-box;
+   padding: 0;
+}
+
+body, html {
+  font-family: "Raleway","Gothic A1", "Poppins", sans-serif;
+  max-height: 100%;
+}
+
+.container {
+  max-width: 80%;
+  background-color: #f4f4f4; 
+  /* overflow: scroll; */
+}
+
+.adjust {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 80%;
+  object-fit: cover;
+  /* z-index: 1; */
+ margin-bottom: 150px;
+ width: 1000px;
+}
+
+/* .logo_image { */
+  /* position: absolute; */
+  /* top: 25px;
+  left: 60px;
+  width: 250px;
+  margin: 20px auto;
+  border: 2px solid red;
+} */
+
+.header  .logo_image{
+  text-align: start;
+  top: 25px;
+  left: 60px;
+  width: 250px;
+  margin: 10px 90px;
+  /* border: 2px solid red; */
+}
+
+/* styling the Get Gig section */
+.get_gig {
+  /* z-index: 2; */
+  text-align: start;
+  font-family: 'Gothic A1', sans-serif;
+  margin: 100px 40px 100px 90px;
+  font-size: 16px;
+  /* border: 2px solid red; */
+  color: #6c6b6b;
+  /* gap: 10; */
+} 
+
+
+/* Get Started styling  button */
+.btn_get_started {
+  padding: 10px 20px;
+  background-color: #2d5b8c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* styling the search section */
+.search_container {
+  position: absolute;
+  background-color: #E7E7E7;
+  color: #505050;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  top: 610px;
+  /* border: 1px solid red; */
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 200px;
+  gap: 60px;
+  font-family: 'poppins', sans-serif;
+} 
+
+/* Styling the search input section */
+.search_container input{
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 2px solid #084482;
+  width: 40%;
+  border-radius: 5px;
+}
+
+ div.search_container h3 {
+  padding: 0px; 
+  /* margin-top: -200px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/* .search_container .pop_color {
+  width: 26px;
+  height: 16px; */ 
+  /* margin: 0px 0  0 1062px;
+  border-radius: 55px;
+  background-color: #336F922B;
+  border: 2px solid red; */
+/* } */
+
+/* .search_container .pop_color1 {
+  width: 26px;
+  height: 16px;
+  /* top: 60px; */
+  /* right: 0px; */
+  /* margin: 500px 0  0 1062px; */
+  /* border-radius: 55px;
+  background-color: #336F922B
+}  */
+
+/* .search_container .pop_color2 { */
+  /* border: 1px solid #ff0088; */
+  /* width: 26px;
+  height: 16px; */
+  /* top: 0;
+  left: 0px;
+  margin:  0px 0 0px -650px;
+  border-radius: 55px;
+  background-color: #c8e5f82b; 
+}
+
+.search_container .pop_color3 {
+  width: 26px;
+  height: 16px;
+  /* top: 0;
+  left: 0;
+  margin: 0px -1062px  -250px 0;
+  border-radius: 55px;
+  position: static;
+  background-color: #c8e5f82b; */
+  /* border: 2px solid forestgreen; */
+/* }  

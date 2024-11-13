@@ -1,0 +1,102 @@
+/* Reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+/* Landing Page Container */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4f4f4; /* Background color as per the design */
+  overflow: hidden;
+}
+
+/* Logo Styling */
+.logo-left {
+  position: absolute;
+  top: 25px;
+  left: 70px;
+  max-width: 150px;
+}
+
+/* Main Content Styling */
+.main-content {
+  z-index: 2;
+  text-align: start;
+  margin: -70px 0px 0px -1000px;
+}
+
+.main-content h1 {
+  /* font-size: 1.5rem; */
+  color: #333;
+  margin-bottom: 20px;
+  font-family: Gothic A1;
+  font-size: 32px;
+}
+
+.get-started-btn {
+  padding: 10px 20px;
+  background-color: #2d5b8c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 90px;
+}
+
+/* Right Background Image Styling */
+.background-image-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 85%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Search Section Styling */
+/* .search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  z-index: 2;
+}
+
+.search-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 60px;
+}
+
+.search-bar {
+  display: flex;
+  align-items:start;
+  width: 100%;
+  max-width: 1000px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+} */
