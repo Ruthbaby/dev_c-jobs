@@ -1,5 +1,5 @@
 /* Reset margins and paddings */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,10 +8,10 @@
 body, html {
   font-family: Arial, sans-serif;
   height: 100%;
-}
+} */
 
 /* Landing Page Container */
-.landing-page {
+/* .landing-page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,34 +19,34 @@ body, html {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-color: #f4f4f4; /* Background color as per the design */
-  overflow: hidden;
-}
+  background-color: #f4f4f4; Background color as per the design */
+  /* overflow: hidden;
+} */
 
 /* Logo Styling */
-.logo-left {
+/* .logo-left {
   position: absolute;
   top: 25px;
   left: 70px;
   max-width: 150px;
-}
+} */
 
 /* Main Content Styling */
-.main-content {
+/* .main-content {
   z-index: 2;
   text-align: start;
   margin: -70px 0px 0px -1000px;
 }
 
-.main-content h1 {
+.main-content h1 { */
   /* font-size: 1.5rem; */
-  color: #333;
+  /* color: #333;
   margin-bottom: 20px;
   font-family: Gothic A1;
   font-size: 32px;
-}
+} */
 
-.get-started-btn {
+/* .get-started-btn {
   padding: 10px 20px;
   background-color: #2d5b8c;
   color: #fff;
@@ -55,17 +55,17 @@ body, html {
   font-size: 1rem;
   cursor: pointer;
   margin-right: 90px;
-}
+} */
 
 /* Right Background Image Styling */
-.background-image-right {
+/* .background-image-right {
   position: absolute;
   right: 0;
   top: 0;
   height: 85%;
   object-fit: cover;
   z-index: 1;
-}
+} */
 
 /* Search Section Styling */
 /* .search-section {
@@ -100,3 +100,96 @@ body, html {
   outline: none;
   font-size: 1rem;
 } */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  max-width: 1200px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-image {
+  flex: 1;
+  background-image: url('your-image.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.features {
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+.feature {
+  text-align: center;
+  padding: 20px;
+}
+
+.feature i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.get-started-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-image, .hero-content {
+    flex: 0 0 100%;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

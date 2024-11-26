@@ -158,14 +158,24 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 3.2rem 0 1.0rem 4.0rem;
+  margin: 2.0rem 0 0.5rem 4.0rem;
   padding: 5px;
 }
 
 .feature-card {
   /* color: #E7E7E7; */
-  box-shadow: 0px 4px 12px 0px #E7E7E7 ;
-  background-color: #D7D7D740;
+  box-shadow: 0px 4px 12px 0px #D7D7D740;
+  background-color: #c4c4c440;
+  height: 250px;
+  width: 100%;
+}
+
+.feature-card p {
+  padding: 10px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  line-height: 25px;
+  font-size: 300;
 }
 /* div.feature-card img{
 align-items: center;
